@@ -27,8 +27,8 @@ docker push yourusername/my-data-processor
 ```bash
 docker network create my-network
 
-docker run -d --name web-server --network my-network my-web-server
-docker run -d --name data-processor --network my-network my-data-processor
+docker run -d --name web-server --network my-network progerg/my-web-server
+docker run -d --name data-processor --network my-network progerg/my-data-processor
 ```
 
 Ссылки на сами образы:
